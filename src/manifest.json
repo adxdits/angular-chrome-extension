@@ -1,0 +1,20 @@
+{
+    "name": "first-extension",
+
+    "version": "1.0.0",
+
+    "description": "Note taking app", 
+
+    "manifest_version": 3,
+
+    "action": {
+      "default_popup": "index.html"
+    },
+
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*",
+        "*://*/*"
+
+    ]
+}
